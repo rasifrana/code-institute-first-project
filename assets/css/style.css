@@ -46,13 +46,6 @@ h4 {
   display: inline-block;
 }
 
-.section-column {
-  /* margin-top: -10px; */
-  padding: 0 30px 30px;
-  float: none;
-  display: table-cell;
-}
-
 .row-table {
   display: table;
 }
@@ -201,4 +194,56 @@ footer .cv-pdf i:hover {
   font-size: 27px;
   line-height: 15px;
   text-align: center;
+}
+
+/* ------------------3 Reason Section Styling------------------------- */
+
+/* Personal Info section */
+.bg-color-personal-info {
+  background-color: #f4f4f4;
+}
+
+.personal-info-item {
+  margin-bottom: 20px;
+  display: block;
+  clear: both;
+}
+
+.personal-info-item .key,
+.personal-info-item .value {
+  padding-right: 8px;
+  display: inline-block;
+}
+
+.personal-info-item .key {
+  width: 30%;
+  margin-right: 20px;
+}
+
+.personal-info-item .value {
+  position: relative;
+  width: 60%;
+}
+
+.personal-info-item .key p {
+  font-weight: 700;
+}
+
+/* About me section */
+.reason-icon {
+  font-size: 26px;
+  color: #e67e22;
+}
+
+.reason-heading {
+  margin-bottom: 15px;
+}
+
+/* ----------------------- Media queries -----------*/
+@media (min-width: 992px) {
+  .section-column {
+    padding: 0 30px 30px;
+    float: none;
+    display: table-cell;
+  }
 }
