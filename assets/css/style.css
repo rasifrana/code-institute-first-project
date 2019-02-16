@@ -303,11 +303,43 @@ footer .cv-pdf i:hover {
   background: #fafafa;
 }
 
+/* ----------------------Contact ------------------- */
+.center-form {
+  max-width: 70%;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+.contact-heading {
+  font-family: "Exo", sans-serif;
+  font-weight: 300;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+button[type="submit"] {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  background-color: #e84610;
+  color: #fafafa;
+}
+
+.form-control {
+  margin-bottom: 5px;
+}
+
 /* ----------------------- Media queries -----------*/
 @media (min-width: 992px) {
   .section-column {
     padding: 0 30px 30px;
     float: none;
     display: table-cell;
+  }
+
+  .center-form {
+    max-width: 50%;
+    min-height: 240px;
+    margin: 0 auto;
+    padding-top: 30px;
   }
 }

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Resume</title>
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <header class="container-fluid">
+      <div class="row">
+        <a href="index.html">
+          <div class="col-md-4 logo"></div>
+        </a>
+        <div class="col-md-8">
+          <!-- Heading / Nmae Info -->
+          <div class="row bg-color-name-title">
+            <div class="heading">
+              <h1 class="name">Asif Rana</h1>
+              <h2 class="title">Full Stack Developer</h2>
+            </div>
+          </div>
+
+          <!-- navigation list -->
+          <div class="row">
+            <ul class="list-inline clearfix">
+              <li class="col-xs-6 col-sm-3 ul-menu-color-home menu-item">
+                <a href="index.html" class="hvr-sweep-to-bottom"
+                  ><i class="fa fa-home" aria-hidden="true"></i
+                  ><span>Home</span></a
+                >
+              </li>
+
+              <li class="col-xs-6 col-sm-3 ul-menu-color-resume menu-item">
+                <a href="resume.html" class="hvr-sweep-to-bottom"
+                  ><i class="fa fa-graduation-cap" aria-hidden="true"></i
+                  ><span>Resume</span></a
+                >
+              </li>
+
+              <li class="col-xs-6 col-sm-3 ul-menu-color-contact menu-item">
+                <a href="contact.html" class="hvr-sweep-to-bottom"
+                  ><i class="fa fa-commenting-o" aria-hidden="true"></i
+                  ><span>Contact</span></a
+                >
+              </li>
+
+              <li class="col-xs-6 col-sm-3 ul-menu-color-cv menu-item">
+                <a
+                  href="assets/cv/template_cv.pdf"
+                  target="-blank"
+                  class="hvr-sweep-to-bottom"
+                  ><i class="fa fa-download" aria-hidden="true"></i
+                  ><span>Download CV</span></a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- 3 Reason section for skills information -->
+    <section class="container-fluid">
+      <div class="row bg-color-contact">
+        <h3 class="contact-heading uppercase text-center">
+          Got a project in mind?
+        </h3>
+        <h5 class="uppercase text-center">Let's Work Together</h5>
+      </div>
+
+      <!-- -----------------Contact Form --------------- -->
+      <div class="center-form">
+        <form action="">
+          <input
+            type="text"
+            name="name"
+            class="form-control"
+            id="fullname"
+            placeholder="Name"
+            required
+          />
+
+          <input
+            type="email"
+            name="email"
+            class="form-control"
+            id="fullname"
+            placeholder="Email"
+            required
+          />
+
+          <textarea
+            name="projectsummary"
+            id="projectsummary"
+            rows="5"
+            class="form-control"
+            placeholder="Project Description"
+          ></textarea>
+
+          <button type="submit" class="btn btn-secondary center-block">
+            Send Project Request
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer starts here -->
+    <footer class="container-fluid">
+      <div class="row text-center">
+        <div class="col-sm-4">
+          <h5 class="uppercase general-sub">About</h5>
+          <p class="inline-block">
+            Full Stack Developer. Experienced fron front end technologies to
+            back end. Excellent Problem Solving Skills
+          </p>
+        </div>
+        <div class="col-sm-4">
+          <h5 class="uppercase general-sub">Download My CV</h5>
+          <p class="inline-block">
+            Please download a printable version of my CV.
+            <a href="assets/cv/template_cv.pdf" target="-blank" class="cv-pdf"
+              ><i class="fa fa-download" aria-hidden="true"></i
+            ></a>
+          </p>
+        </div>
+        <div class="col-sm-4">
+          <h5 class="uppercase general-sub">MySocial</h5>
+          <ul class="list-inline social-links">
+            <li>
+              <a target="_blank" href=""><i class="fa fa-facebook"></i></a>
+            </li>
+            <li>
+              <a target="_blank" href=""><i class="fa fa-twitter"></i></a>
+            </li>
+            <li>
+              <a target="_blank" href=""><i class="fa fa-linkedin"></i></a>
+            </li>
+            <li>
+              <a target="_blank" href=""><i class="fa fa-instagram"></i></a>
+            </li>
+            <li>
+              <a target="_blank" href=""><i class="fa fa-youtube"></i></a>
+            </li>
+            <li>
+              <a target="_blank" href=""><i class="fa fa-github"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
